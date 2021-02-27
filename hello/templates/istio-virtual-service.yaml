@@ -27,3 +27,4 @@ spec:
         host: {{ $fullName }}
         port:
           number: {{ $svcPort }}
+{{- end }}
