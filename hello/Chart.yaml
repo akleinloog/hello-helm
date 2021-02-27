@@ -1,0 +1,14 @@
+apiVersion: v2
+name: hello
+description: A Helm chart for Kubernetes
+type: application
+home: https://www.kleinloog.ch/post/go-cli/
+sources:
+  - https://github.com/akleinloog/hello
+  - https://github.com/akleinloog/hello-helm
+maintainers:
+  - name: Arnoud Kleinloog
+    email: arnoud@kleinloog.ch
+    url: https://www.kleinloog.ch/
+version: 0.1.0
+appVersion: "v1"
