@@ -2,10 +2,28 @@ apiVersion: v1
 entries:
   hello:
   - apiVersion: v2
-    appVersion: v1
-    created: "2021-02-27T23:19:48.068273+01:00"
+    appVersion: v2
+    created: "2021-02-28T20:47:13.291607+01:00"
     description: A Helm chart for Kubernetes
-    digest: 816969a69f31c41951f667da15903c7ac0f4007d9ae68cb3c7c482669d8891f0
+    digest: 4e20a33f18eb0df22d98f0e20b18cb1ab86ee19e46ff21f63fe98113e2f450c2
+    home: https://www.kleinloog.ch/post/go-cli/
+    maintainers:
+    - email: arnoud@kleinloog.ch
+      name: Arnoud Kleinloog
+      url: https://www.kleinloog.ch/
+    name: hello
+    sources:
+    - https://github.com/akleinloog/hello
+    - https://github.com/akleinloog/hello-helm
+    type: application
+    urls:
+    - hello-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: v1
+    created: "2021-02-28T20:47:13.291122+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 2ba11360f894dfa7d2e85f5e3d9b39cb6ed0bfcd1e7aced0a8cd08b2ee28044a
     home: https://www.kleinloog.ch/post/go-cli/
     maintainers:
     - email: arnoud@kleinloog.ch
@@ -19,4 +37,4 @@ entries:
     urls:
     - hello-0.1.0.tgz
     version: 0.1.0
-generated: "2021-02-27T23:19:48.065214+01:00"
+generated: "2021-02-28T20:47:13.288452+01:00"
