@@ -10,5 +10,5 @@ maintainers:
   - name: Arnoud Kleinloog
     email: arnoud@kleinloog.ch
     url: https://www.kleinloog.ch/
-version: 0.2.0
-appVersion: "v2"
+version: 0.3.0
+appVersion: "v3"

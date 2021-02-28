@@ -1,3 +1,4 @@
+{{- if .Values.istioIngress.enabled -}}
 apiVersion: v1
 kind: Pod
 metadata:
@@ -10,10 +11,23 @@ spec:
   containers:
     - name: wget
       image: busybox
-{{- if .Values.istioIngress.enabled -}}
       command: ['wget istio-proxy']
-{{- else -}}
-      command: ['wget']
-{{- end }}
       args: ['{{ include "chart.fullname" . }}:{{ .Values.service.port }}']
   restartPolicy: Never
+{{- else -}}
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "{{ include "chart.fullname" . }}-test-connection"
+  labels:
+    {{- include "chart.labels" . | nindent 4 }}
+  annotations:
+    "helm.sh/hook": test
+spec:
+  containers:
+    - name: wget
+      image: busybox
+      command: ['wget']
+      args: ['{{ include "chart.fullname" . }}:{{ .Values.service.port }}']
+  restartPolicy: Never
+{{- end }}
