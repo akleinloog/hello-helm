@@ -10,6 +10,10 @@ spec:
   containers:
     - name: wget
       image: busybox
+{{- if .Values.istioIngress.enabled -}}
+      command: ['wget istio-proxy']
+{{- else -}}
       command: ['wget']
+{{- end }}
       args: ['{{ include "chart.fullname" . }}:{{ .Values.service.port }}']
   restartPolicy: Never
