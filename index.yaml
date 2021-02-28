@@ -3,9 +3,9 @@ entries:
   hello:
   - apiVersion: v2
     appVersion: v3
-    created: "2021-02-28T21:37:33.640504+01:00"
+    created: "2021-02-28T21:42:16.322977+01:00"
     description: A Helm chart for my simple hello application
-    digest: b198f187c91d9772e3dc3eafccb38764828e6904da985b7b780cac7cb9ee0e33
+    digest: 28f15efaed83956d5e9df51cab3239a58d97930bfef0e38f3b2e1a68bdc50b2f
     home: https://www.kleinloog.ch/post/go-cli/
     maintainers:
     - email: arnoud@kleinloog.ch
@@ -21,9 +21,9 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: v2
-    created: "2021-02-28T21:37:33.639997+01:00"
+    created: "2021-02-28T21:42:16.32253+01:00"
     description: A Helm chart for my simple hello application
-    digest: d1c8c3c7e44f42f164d82a2a3fb03d4262561d4feb1495040d862619470e155a
+    digest: 9acc7bc41f04e95336e9c0cd03ea27c865a6de6ba11a6ae83080b6081ca2dec5
     home: https://www.kleinloog.ch/post/go-cli/
     maintainers:
     - email: arnoud@kleinloog.ch
@@ -39,9 +39,9 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: v1
-    created: "2021-02-28T21:37:33.639484+01:00"
+    created: "2021-02-28T21:42:16.322068+01:00"
     description: A Helm chart for my simple hello application
-    digest: 1421340cb71b3ee7026411a7c10de5e8c1bb0bdee0d7a90857c7ddd999923d07
+    digest: f92022c63d21099db123c5ab781bdd642f955c7feb7e2c0cea6d6c6410eaee62
     home: https://www.kleinloog.ch/post/go-cli/
     maintainers:
     - email: arnoud@kleinloog.ch
@@ -55,4 +55,4 @@ entries:
     urls:
     - hello-0.1.0.tgz
     version: 0.1.0
-generated: "2021-02-28T21:37:33.638746+01:00"
+generated: "2021-02-28T21:42:16.321375+01:00"
