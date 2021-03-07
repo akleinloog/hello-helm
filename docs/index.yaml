@@ -1,0 +1,58 @@
+apiVersion: v1
+entries:
+  hello:
+  - apiVersion: v2
+    appVersion: v3
+    created: "2021-03-07T21:05:23.696158+01:00"
+    description: A Helm chart for my simple hello application
+    digest: c627d5373216e641b51c18418c3f3f154d591876ecfee1a0fe75a30571ad8f1a
+    home: https://www.kleinloog.ch/post/go-cli/
+    maintainers:
+    - email: arnoud@kleinloog.ch
+      name: Arnoud Kleinloog
+      url: https://www.kleinloog.ch/
+    name: hello
+    sources:
+    - https://github.com/akleinloog/hello
+    - https://github.com/akleinloog/hello-helm
+    type: application
+    urls:
+    - hello-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: v2
+    created: "2021-03-07T21:05:23.695654+01:00"
+    description: A Helm chart for my simple hello application
+    digest: d06f44de6016c657f3915defbe41ef497fb8b9fae479195864fc07489d733a8d
+    home: https://www.kleinloog.ch/post/go-cli/
+    maintainers:
+    - email: arnoud@kleinloog.ch
+      name: Arnoud Kleinloog
+      url: https://www.kleinloog.ch/
+    name: hello
+    sources:
+    - https://github.com/akleinloog/hello
+    - https://github.com/akleinloog/hello-helm
+    type: application
+    urls:
+    - hello-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: v1
+    created: "2021-03-07T21:05:23.695151+01:00"
+    description: A Helm chart for my simple hello application
+    digest: 626e4c705639d68af06c8dece286e766f6f96b91960c030f2fe1cf99ee1a27e0
+    home: https://www.kleinloog.ch/post/go-cli/
+    maintainers:
+    - email: arnoud@kleinloog.ch
+      name: Arnoud Kleinloog
+      url: https://www.kleinloog.ch/
+    name: hello
+    sources:
+    - https://github.com/akleinloog/hello
+    - https://github.com/akleinloog/hello-helm
+    type: application
+    urls:
+    - hello-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-03-07T21:05:23.694503+01:00"
