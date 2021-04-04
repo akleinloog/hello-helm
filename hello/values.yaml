@@ -4,6 +4,8 @@
 
 replicaCount: 1
 
+greeting: Hello
+
 image:
   repository: akleinloog/hello
   pullPolicy: IfNotPresent
